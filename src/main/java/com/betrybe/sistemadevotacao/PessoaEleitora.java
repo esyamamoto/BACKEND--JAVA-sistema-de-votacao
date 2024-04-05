@@ -1,6 +1,8 @@
 package com.betrybe.sistemadevotacao;
 
-
+/**
+ * Pessoa eleitora extends PESSPA.
+ */
 public class PessoaEleitora extends Pessoa {
   private String cpf;
 

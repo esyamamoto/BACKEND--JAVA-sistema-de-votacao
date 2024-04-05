@@ -1,8 +1,11 @@
 package com.betrybe.sistemadevotacao;
 
-import java.util.ArrayList;
 import java.lang.Math;
+import java.util.ArrayList;
 
+/**
+ * GerenciamentoVotacao.
+ */
 public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
   private ArrayList<PessoaCandidata> pessoasCandidatas;
   private ArrayList<PessoaEleitora> pessoasEleitoras;
@@ -46,7 +49,7 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
   }
 
   @Override
-  public void votar (String cpfPessoaEleitora,int numeroPessoaCandidata) {
+  public void votar(String cpfPessoaEleitora, int numeroPessoaCandidata) {
     if (cpfsComputados.contains(cpfPessoaEleitora)) {
       System.out.println("Pessoa eleitora já votou!");
       return;
