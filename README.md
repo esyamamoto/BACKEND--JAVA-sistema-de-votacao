@@ -1,10 +1,26 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Sistema de Votação
+
+<details>
+ 
+  <summary>👨‍💻 desenvolvido </summary><br />
+Neste projeto  desenvolvi um programa em Java para simular o cadastro de um sistema de votação, incluindo o cadastro de pessoas candidatas, o cadastro de pessoas eleitoras, e o próprio processo de votação.
+
+</details>
+
+<details>
+  <summary><strong></strong> Habilidades</strong></summary><br />
+Neste projeto:
+1. Cadastrar pessoas candidatas
+2. Cadastrar pessoas eleitoras
+3. Iniciar processo votação
+4. Apresentar os resultados da eleição
+
+</details>
+
+## Orientações
+
+<details>
+ 
+- dependências: `mvn install` 
+- 🎛 Checkstyle: `mvn checkstyle:check`
+</details>
